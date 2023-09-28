@@ -4,8 +4,26 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -16,6 +34,20 @@ a {
 address {
   font-style: normal;
 }
+
+/* -------------------------------------------- */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+/* --------------------------------------------------- */
+
 /* Header */
 .logo {
   font-family: "Raleway", sans-serif;
