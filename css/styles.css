@@ -195,11 +195,6 @@ header .logo-decoration {
   /* margin-bottom: 32px; */
 }
 
-.team-decoration {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .team-subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -207,6 +202,12 @@ header .logo-decoration {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-text {
   font-size: 16px;
@@ -237,14 +238,6 @@ header .logo-decoration {
   /* margin-bottom: 32px; */
 }
 
-.portfolio-decoration {
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .portfolio-subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -252,6 +245,10 @@ header .logo-decoration {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .portfolio-text {
   font-size: 16px;
