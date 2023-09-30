@@ -59,17 +59,18 @@ img {
 /* Header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-list-all {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-header {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -167,6 +168,7 @@ header .logo-decoration {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -212,6 +214,7 @@ header .logo-decoration {
 /* Team */
 .team {
   background-color: #f4f4fd;
+  padding: 32px 16px;
 }
 
 .team-title {
@@ -231,6 +234,7 @@ header .logo-decoration {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
@@ -240,7 +244,6 @@ header .logo-decoration {
 .container-text-team {
   text-align: center;
   /* background-color: #fff; */
-  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -321,11 +324,15 @@ header .logo-decoration {
   color: #f4f4fd;
 }
 
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 16px;
   max-width: 264px;
 }
