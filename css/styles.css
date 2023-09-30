@@ -249,6 +249,8 @@ header .logo-decoration {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .team-subtitle {
