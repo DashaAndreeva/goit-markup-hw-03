@@ -269,8 +269,7 @@ header .logo-decoration {
 
 /* Portfolio */
 
-.portfolio .container {
-  padding: 32px 16px;
+.portfolio {
 }
 .portfolio-title {
   color: #2e2f42;
