@@ -121,6 +121,7 @@ header .logo-decoration {
 }
 
 .adress-list {
+  justify-content: center;
 }
 .adress-links {
   font-size: 16px;
