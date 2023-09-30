@@ -45,7 +45,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   /* outline: 4px solid aqua; */
 }
 
@@ -64,7 +64,6 @@ img {
 
 .header-list-all {
   display: flex;
-  padding: 24px 0;
 }
 
 .nav-header {
