@@ -29,7 +29,6 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-  padding: 24px 0;
 }
 
 address {
@@ -70,6 +69,7 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo {
