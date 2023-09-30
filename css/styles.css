@@ -64,7 +64,6 @@ img {
 
 .header-list-all {
   display: flex;
-  padding: 24px 0;
 }
 
 .nav-header {
@@ -91,6 +90,7 @@ header .logo-decoration {
 .navigation {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation-list {
@@ -103,6 +103,7 @@ header .logo-decoration {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation-links:hover,
