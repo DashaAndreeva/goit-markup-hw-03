@@ -207,6 +207,10 @@ header .logo-decoration {
 
 .advantages-title {
   margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advantages-text {
@@ -338,6 +342,7 @@ header .logo-decoration {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 .footer-text {
